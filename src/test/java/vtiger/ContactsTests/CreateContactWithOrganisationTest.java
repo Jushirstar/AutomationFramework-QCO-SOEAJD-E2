@@ -83,9 +83,6 @@ public class CreateContactWithOrganisationTest extends BaseClass{
 		String ContactHeader=cip.getContactHeader();
 		Assert.assertTrue(ContactHeader.contains(LASTNAME));
 	    System.out.println(ContactHeader);
-		
-		
-
 	}
 	
 	@Test
@@ -93,6 +90,7 @@ public class CreateContactWithOrganisationTest extends BaseClass{
 	{
 		
 		System.out.println("demo");
+		
 	}
 
 }

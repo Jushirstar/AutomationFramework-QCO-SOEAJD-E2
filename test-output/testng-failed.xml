@@ -3,11 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtiger.Practice.RetryAnalyserPractice">
+      <class name="vtiger.ContactsTests.CreateContactWithOrganisationTest">
         <methods>
-          <include name="sample"/>
+          <include name="createContactWithOrgTest"/>
+          <include name="acConfig"/>
+          <include name="demotest"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
         </methods>
-      </class> <!-- vtiger.Practice.RetryAnalyserPractice -->
+      </class> <!-- vtiger.ContactsTests.CreateContactWithOrganisationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
